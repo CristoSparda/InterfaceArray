@@ -1,12 +1,11 @@
 import complements.ArrayList;
-import complements.InterfaceList;
 import complements.IteratorGen;
 
 public class Main {
     public static void main(String[] args) {
 
-        InterfaceList<Integer> lista1 = new ArrayList<>();
-        InterfaceList<String> lista2 = new ArrayList<>();
+        ArrayList<Integer> lista1 = new ArrayList<>();
+        ArrayList<String> lista2 = new ArrayList<>();
 
         lista1.add(7);
         lista1.add(4);
